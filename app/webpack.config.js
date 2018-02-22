@@ -88,13 +88,13 @@ module.exports = ({prod = false, sw = false, prefix = ''} = {}) => {
 			contentBase: 'public',
 			inline: true,
 			host: process.env.HOST || 'localhost',
-			port: Number.parseInt(process.env.PORT || 8080, 10)
+			port: Number.parseInt(process.env.PORT || 3000, 10)
 		}
 	};
 
 	if (makemode === 'serve') {
 		// Add plugins for serving
-		webpackConfig.entry.main.unshift('webpack-dev-server/client?http://localhost:8080/');
+		webpackConfig.entry.main.unshift('webpack-dev-server/client?http://localhost:3000/');
 		webpackConfig.plugins.push(new HotModuleReplacementPlugin());
 
 		// Enable service worker while app running on dev server
