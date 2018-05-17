@@ -16,6 +16,6 @@ app.all('*' , function(req, res, next){
 //     res.set('Content-Encoding', 'gzip');
 //     next();
 })
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 80);
 
 app.listen(app.get('port'), () => console.log(`Started Server on port:`+ app.get('port')));
