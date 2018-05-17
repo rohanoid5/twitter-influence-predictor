@@ -113,7 +113,7 @@ class Home extends React.Component {
         following: 0,
         listed_count: 0,
         posts: 0,
-        avatar: 'user.svg',
+        avatar: 'https://pixabay.com/en/photos/avatar/',
         description: ''
       },
       user_two_data: {
@@ -123,7 +123,7 @@ class Home extends React.Component {
         following: 0,
         listed_count: 0,
         posts: 0,
-        avatar: 'user.svg',
+        avatar: 'https://pixabay.com/en/photos/avatar/',
         description: ''
       },
       username_one: '',
