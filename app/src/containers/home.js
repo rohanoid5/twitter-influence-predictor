@@ -390,7 +390,9 @@ class Home extends React.Component {
                       <MuiThemeProvider theme={theme}>
                         <Button raised color="default" disabled={this.state.disabled}
                           className={classes.button} onClick={this.handleCompare}>
-                          Compare
+                          {
+                            this.state.disabled ? "Please wait..." : "Compare"
+                          }
                         </Button>
                       </MuiThemeProvider>
                       <Button onClick={this.clickHome.bind(this)} color="primary" autoFocus>
