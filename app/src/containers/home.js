@@ -113,7 +113,7 @@ class Home extends React.Component {
         following: 0,
         listed_count: 0,
         posts: 0,
-        avatar: 'https://pixabay.com/en/photos/avatar/',
+        avatar: 'http://www.ccfairfield.org/wp-content/uploads/2014/10/dummy.png',
         description: ''
       },
       user_two_data: {
@@ -123,7 +123,7 @@ class Home extends React.Component {
         following: 0,
         listed_count: 0,
         posts: 0,
-        avatar: 'https://pixabay.com/en/photos/avatar/',
+        avatar: 'http://www.ccfairfield.org/wp-content/uploads/2014/10/dummy.png',
         description: ''
       },
       username_one: '',
